@@ -5,7 +5,7 @@ class Test:
     self.id=id
     self.name=name
   def __str__(self):
-    print("Id: {} Name: {}".format(self.id,self.name))
+    return "Id: {} Name: {}".format(self.id,self.name)
     
 t = Test(1,"test")
 print(t)
